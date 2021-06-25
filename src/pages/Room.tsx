@@ -138,7 +138,7 @@ export function Room () {
           />
         );
       }) }
-      </div>
+      </div>.......
     </main>
     </div>
   );
