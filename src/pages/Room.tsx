@@ -38,7 +38,7 @@ type RoomParams = {
 }
 
 export function Room () {
-  //hbjhbdwbyibfyibw
+  //hbjhbdwbyibfyibwhghghgvhgvhghgv
   const { user } = useAuth();
   const params = useParams<RoomParams>();
   const [newQuestion, setNewQuestion] = useState('');
