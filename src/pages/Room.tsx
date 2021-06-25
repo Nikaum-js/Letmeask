@@ -38,6 +38,7 @@ type RoomParams = {
 }
 
 export function Room () {
+  //hbjhbdwbyibfyibw
   const { user } = useAuth();
   const params = useParams<RoomParams>();
   const [newQuestion, setNewQuestion] = useState('');
@@ -138,7 +139,7 @@ export function Room () {
           />
         );
       }) }
-      </div>.......
+      </div>
     </main>
     </div>
   );
