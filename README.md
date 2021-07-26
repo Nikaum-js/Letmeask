@@ -52,7 +52,7 @@ Execute os comandos no seu terminal:
 # Clone o repositório
 $ git clone https://github.com/Nikolas-as/Letmeask.git
 
-# Entre no repositório
+# Entre nele
 $ cd letmeask
 
 # Instale as dependências
