@@ -1,0 +1,61 @@
+.content {
+  margin: 2rem;
+  padding: 5rem 10rem;
+  max-width: 1820px;
+
+  .conteudo {
+    line-height: 1.7;
+    display: flex;
+    flex-direction: column;
+
+    span {
+      font-family: Raleway, sans-serif;
+      color: #28f5be;
+      font-size: 2rem;
+      font-weight: 700;
+    }
+
+    #final {
+      background: linear-gradient(83.89deg,#28f5be 2.81%,#3b37ff 97.94%);
+      font-family: Raleway, sans-serif, Helvetica;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    
+    h2 {
+      font-weight: 700;
+      font-size: 3.5rem;
+      background: linear-gradient(83.89deg,#28f5be 2.81%,#3b37ff 97.94%);
+      font-family: Raleway, sans-serif, Helvetica;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    .icon {
+      display: flex;
+      margin: 1rem;
+
+      img {
+        padding: 0 .9rem;
+        width: 80px;
+        cursor: pointer;
+      }
+      img:hover {
+        transform: scale(1.1);
+      }
+    }
+
+    .image {
+      justify-content: flex-end;
+      display: flex;
+
+      img {
+        position: absolute;
+        bottom: 60px;
+        flex-direction: row;
+        width: 550px;
+        height: 500px;
+      }
+    }
+  }
+}

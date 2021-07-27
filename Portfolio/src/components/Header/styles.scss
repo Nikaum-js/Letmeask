@@ -1,0 +1,47 @@
+.Navbar {
+  margin: 2rem;
+  max-width: 1820px;
+  display: flex;
+  justify-content: flex-end;
+  height: 5rem;
+
+  ul {
+    list-style: none;
+    display: flex;
+    padding: 2rem;
+
+    li {
+      font-weight: 500;
+      color: var(--gray-400);
+      font-family: Ubuntu;
+      line-height: 1rem;
+      font-size: 1.25rem;
+      padding: 0 2rem;
+    }
+
+    li:hover {
+      color: var(--white);
+      transform: scale(1.1);
+    }
+
+    button {
+      font-family: Ubuntu, sans-serif;
+      margin: -0.6rem 0;
+      border-radius: 0.5rem;
+      height: 2.4rem;
+      color: var(--cyan-500);
+      line-height: 1rem;
+      font-size: 1.25rem;
+      background: transparent;
+      padding: 0.3rem 3rem;
+      border: 1px solid var(--cyan-500);
+      box-shadow: 0 0 .3em var(--cyan-500);
+    }
+    button:hover {
+      background: var(--cyan-500);
+      color: var(--body);
+      border: 1px solid var(--cyan-500);
+      transition: all 1s;
+    }
+  }
+}
